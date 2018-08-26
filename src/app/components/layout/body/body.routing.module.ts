@@ -31,6 +31,5 @@ export const routingComponents = [
   AboutComponent,
   ContactComponent,
   GalleryComponent,
-  ProjectListComponent,
   SketchbookListComponent
 ];

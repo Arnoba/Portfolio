@@ -9,7 +9,7 @@ import { FooterModule } from './components/layout/footer';
 import { AppRoutingModule } from './app-routing.module';
 import { BodyModule } from './components/layout/body';
 import { FormsModule } from '@angular/forms';
-import { CollectionModule } from './components/shared/collection';
+import { SharedComponentsModule } from './components/shared';
 
 
 
@@ -22,10 +22,10 @@ import { CollectionModule } from './components/shared/collection';
     FooterModule,
     BodyModule,
     AppRoutingModule,
-    CollectionModule
+    SharedComponentsModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
