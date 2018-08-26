@@ -8,7 +8,7 @@ import { HeaderModule } from './components/layout/header';
 import { FooterModule } from './components/layout/footer';
 import { AppRoutingModule } from './app-routing.module';
 import { BodyModule } from './components/layout/body';
-import { FormsModule } from '../../node_modules/@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 
 
