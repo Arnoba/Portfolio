@@ -1,6 +1,7 @@
 .element-container{
     margin: 0;
     padding: 0;
+    width: 28rem;
 }
 .element-thumbnail{
     width: 100%;
@@ -12,6 +13,7 @@
     text-align: center;
 }
 .element-container:hover{
+    width: 30rem;
     .element-thumbnail{
         opacity: 1;
         box-shadow:0 0 20px rgba(0,0,0,0.8);
