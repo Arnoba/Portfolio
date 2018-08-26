@@ -1,4 +1,10 @@
+@import '../../../scss/colours';
 .element{
-    background-color: #eeeeee;
-    border: 1px solid grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    //background-color: $primary-color;
+    //border-top: 1px dashed $highlight-color;
+    height: 40px;
 }
