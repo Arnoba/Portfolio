@@ -18,4 +18,4 @@ const bodyRoutes: Routes = [
   ]
 })
 export class BodyRoutingModule { }
-export const routingComponents = [AboutComponent];
+export const routingComponents = [HomeComponent, AboutComponent];
