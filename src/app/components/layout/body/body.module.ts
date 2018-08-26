@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BodyComponent } from './body.component';
-import { BodyRoutingModule } from './body.routing.module';
+import { BodyRoutingModule, routingComponents } from './body.routing.module';
 
 
 @NgModule({
-  declarations: [BodyComponent
+  declarations: [
+    BodyComponent,
+    routingComponents
   ],
   imports: [BodyRoutingModule],
   exports: [BodyComponent]

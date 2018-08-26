@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HeaderModule } from './components/layout/header';
 import { FooterModule } from './components/layout/footer';
-import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { BodyModule } from './components/layout/body';
 import { FormsModule } from '../../node_modules/@angular/forms';
 
@@ -23,8 +23,7 @@ import { FormsModule } from '../../node_modules/@angular/forms';
     AppRoutingModule
   ],
   declarations: [
-    AppComponent,
-    routingComponents
+    AppComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

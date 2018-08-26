@@ -15,4 +15,3 @@ const appRoutes: Routes = [
     ]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomeComponent];
