@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HeaderComponent } from './header.component';
-import { RouterModule } from '../../../../../node_modules/@angular/router';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({

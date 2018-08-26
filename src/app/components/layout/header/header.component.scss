@@ -2,3 +2,12 @@
     background-color: #eeeeee;
     border: 1px solid grey;
 }
+.logo{
+    background: transparent;
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn:hover {
+    //background-color: darken($color: #000000, $amount: 0)
+    background-color: #1b3044;
+    color: #f5f7fa;
+}
