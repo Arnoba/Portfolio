@@ -5,16 +5,26 @@ import { AppComponent } from './app.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HeaderModule } from './components/layout/header';
+import { FooterModule } from './components/layout/footer';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { BodyModule } from './components/layout/body';
+import { FormsModule } from '../../node_modules/@angular/forms';
+
 
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     NgbModule.forRoot(),
     BrowserModule,
-    HeaderModule
+    FormsModule,
+    HeaderModule,
+    FooterModule,
+    BodyModule,
+    AppRoutingModule
+  ],
+  declarations: [
+    AppComponent,
+    routingComponents
   ],
   providers: [],
   bootstrap: [AppComponent]
