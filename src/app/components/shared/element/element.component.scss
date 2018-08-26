@@ -1,4 +1,19 @@
 .element-thumbnail{
     width: 100%;
     height: auto;
+    opacity: 0.5;
+}
+.element-text{
+    margin: 1em;
+    text-align: center;
+}
+.container:hover{
+    .element-thumbnail{
+        opacity: 1;
+        box-shadow:0 0 20px rgba(0,0,0,0.8);
+    }
+    .element-text{
+        font-weight: bold;
+        font-size: larger;
+    }
 }
